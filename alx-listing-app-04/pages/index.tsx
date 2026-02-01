@@ -1,4 +1,3 @@
-// pages/index.tsx
 import { useEffect, useState } from 'react';
 import { propertyAPI } from '@/services/api';
 import { Property } from '@/types/property';
