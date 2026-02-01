@@ -16,7 +16,7 @@ export default function Home() {
         const data = await propertyAPI.getProperties();
         setProperties(data);
       } catch (err) {
-        setError('Failed to load properties. Please try again later.');
+        setError('Failed. Please try again later.');
         console.error('Error fetching properties:', err);
       } finally {
         setLoading(false);
